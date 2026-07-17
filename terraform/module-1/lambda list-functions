@@ -1,0 +1,36 @@
+{
+    "items": [
+        {
+            "id": "mulgtmn8k8",
+            "name": "blog-application",
+            "createdDate": "2026-07-16T20:50:52-04:00",
+            "apiKeySource": "HEADER",
+            "endpointConfiguration": {
+                "types": [
+                    "REGIONAL"
+                ],
+                "ipAddressType": "ipv4"
+            },
+            "disableExecuteApiEndpoint": false,
+            "rootResourceId": "iks9noq6bh",
+            "securityPolicy": "TLS_1_0",
+            "apiStatus": "AVAILABLE"
+        },
+        {
+            "id": "qkgvg320e9",
+            "name": "blog-application-api",
+            "createdDate": "2026-07-16T20:50:52-04:00",
+            "apiKeySource": "HEADER",
+            "endpointConfiguration": {
+                "types": [
+                    "REGIONAL"
+                ],
+                "ipAddressType": "ipv4"
+            },
+            "disableExecuteApiEndpoint": false,
+            "rootResourceId": "918oe6n9r6",
+            "securityPolicy": "TLS_1_0",
+            "apiStatus": "AVAILABLE"
+        }
+    ]
+}

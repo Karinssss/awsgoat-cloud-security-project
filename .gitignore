@@ -1,0 +1,42 @@
+.terraform/
+
+*.tfstate
+
+*.tfstate.*
+
+terraform.tfstate
+
+terraform.tfstate.backup
+
+*.pem
+
+*.key
+
+__pycache__/
+
+node_modules/
+
+.vscode/
+
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+
+# Private keys and credentials
+*.pem
+*.key
+.env
+.env.*
+credentials
+
+# Terraform plans
+*.tfplan
+
+# Evidence containing credentials
+terraform/module-1/*.png
